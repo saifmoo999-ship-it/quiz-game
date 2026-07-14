@@ -16,7 +16,7 @@ answer = input("What does GPU stand for? ")
 
 score = fuzz.ratio(answer.lower().strip(), correct_answer)
 
-if score >= 60:
+if score >= 75:
     print("Correct!")
     result += 1
 else:
@@ -32,7 +32,7 @@ answer = input("What does ram stand for? ")
 
 score = fuzz.ratio(answer.lower().strip(), correct_answer)
 
-if score >= 60:
+if score >= 75:
     print("Correct!")
     result += 1
 else:
@@ -47,7 +47,7 @@ answer = input("What does ps stand for? ")
 
 score = fuzz.ratio(answer.lower().strip(), correct_answer)
 
-if score >= 60:
+if score >= 75:
     print("Correct!")
     result += 1
 else:
